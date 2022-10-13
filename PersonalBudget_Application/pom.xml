@@ -12,7 +12,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <release>18</release>
+          <release>19</release>
         </configuration>
       </plugin>
     </plugins>
@@ -21,11 +21,16 @@
   	<dependency>
   		<groupId>com.mipresupuesto.personalbudget</groupId>
   		<artifactId>PersonalBudget_Domain</artifactId>
- 		<version>0.0.1-SNAPSHOT</version>
+  		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   	<dependency>
   		<groupId>com.mipresupuesto.personalbudget</groupId>
   		<artifactId>PersonalBudget_Infrastructure</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.mipresupuesto.personalbudget</groupId>
+  		<artifactId>PersonalBudget_CrossCutting</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
