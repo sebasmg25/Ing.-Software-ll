@@ -1,8 +1,8 @@
-package com.mipresupuesto.personalbudget.aplication.command.implementation;
+package com.mipresupuesto.personalbudget.application.command.implementation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.mipresupuesto.personalbudget.aplication.command.interfaces.CreateBudgetPort;
+import com.mipresupuesto.personalbudget.application.command.interfaces.CreateBudgetPort;
 import com.mipresupuesto.personalbudget.application.service.dtoassembler.DTOAssembler;
 import com.mipresupuesto.personalbudget.application.service.interfaces.CreateBudgetUseCase;
 import com.mipresupuesto.personalbudget.domain.BudgetDomain;

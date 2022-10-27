@@ -1,4 +1,4 @@
-package com.mipresupuesto.personalbudget.aplication.command.interfaces;
+package com.mipresupuesto.personalbudget.application.command.interfaces;
 
 import com.mipresupuesto.personalbudget.dto.BudgetDTO;
 
